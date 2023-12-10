@@ -7,7 +7,7 @@ public class Task3 {
 
     private static final int timeModeling = 5000;
 
-    private static final double avgOrderArrival = 0.2, avgStorageCheck = 4, avgOrderDeliveryTime = 3;
+    private static final double avgOrderArrival = 0.2, avgStorageCheck = 4, avgOrderDeliveryTime = 1;
 
     public static void main(String[] args) throws ExceptionInvalidTimeDelay {
         PetriObjModel model = getModel();
